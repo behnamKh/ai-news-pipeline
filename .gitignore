@@ -1,0 +1,42 @@
+# .NET build artifacts
+bin/
+obj/
+
+# User secrets (safe local secrets)
+*.user
+*.suo
+.vscode/
+.vs/
+
+# Environment variables files (optional)
+.env
+
+# Docker artifacts
+**/docker-compose.override.yml
+**/Dockerfile*
+
+# Logs
+logs/
+*.log
+
+# Rider IDE
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Tests output
+TestResults/
+
+# Others
+*.swp
+*.bak
+
+# Coverage files (if you add code coverage later)
+coverage/
+*.coverage
+*.coveragexml
+
+# Global NuGet packages (if any local)
+.nuget/
